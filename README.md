@@ -1,4 +1,4 @@
-# iss_position_with_email_notfication
+# iss_position_with_sms_notfication
 Get the position of the international space station with api and if the iss in your near, you'll get a sms from twilio
 
 This is my first project on Github. I would be happy if you leave any feedback or comments.
