@@ -39,7 +39,7 @@ def is_night():
 
     # get current time and create time delta
     ct = dt.datetime.now()
-    current_time_delta = dt.timedelta(hours=22, minutes=ct.minute, seconds=ct.second)
+    current_time_delta = dt.timedelta(hours=ct.hour, minutes=ct.minute, seconds=ct.second)
 
     # check if is night
     if sunrise_time_delta > current_time_delta or current_time_delta > sunset_time_delta:
